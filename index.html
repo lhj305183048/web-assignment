@@ -204,14 +204,13 @@ Contact Us
       
     <hr class="featurette-divider">
       
-  <section class=“video section” id="discover"> 
+  <section class="video section" id="discover"> 
      
     
       <h2 class="section__title" style="text-align: center;">Video Tour</h2>
  
                 <div class="video__container container">
-                    <p class="video__description">Find out more with our video of the most beautiful and
-                        pleasant places for you and your family.
+                    <p class="video__description">Discover more passion for learning and fun interactions for you through this video.
                     </p>
  
                     <div class="video__content">
@@ -228,22 +227,6 @@ Contact Us
                 </div>
  
       
-      
-      
- 
-      <!-- <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Product Introduction Video</h2>
-        <p class="lead">Introduction videos of projects, products, features and target users</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-          
-           <source src="video/video-intro.mp4" type="video/mp4">
-
-<iframe src="https://drive.google.com/file/d/1Z2_hK39hx_hhbGJyXGTo_pAuwCejjJU1/preview" allow="autoplay"></iframe>
-
-      </div>
-    </div> -->
 
       
       </section>   
@@ -341,8 +324,7 @@ Contact Us
                 <div class="subscribe__bg">
                     <div class="subscribe__container container">
                         <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
-                        <p class="subscribe__description">Subscribe to our newsletter and get a
-                            special 30% discount.
+                        <p class="subscribe__description">Subscribe to our newsletter and get latest updates and special offers.
                         </p>
    
                         <form action="" class="subscribe__form">
@@ -375,17 +357,17 @@ Contact Us
 	
     <!-- Animation -->
     <script>
-		const sr = ScrollReveal({  origin:'top',
+const sr = ScrollReveal({  origin:'top',
     distance:'60px',
     duration: 2500,
     delay:400
                         })
   
-sr.reveal('.col-lg-4')
-sr.reveal('.col-md-7',{reset:true})
+sr.reveal('.col-lg-4',{interval:100})
+sr.reveal('.section__title,.video__container,.subscribe__bg')
 sr.reveal('.intro_description',{delay:500}) 
 sr.reveal('.intro-image',{delay:700,origin:'bottom',reset:true}) 
-sr.reveal('.col-md-7',{origin:'left'}) 
+sr.reveal('.col-md-7',{origin:'left',reset:true}) 
         
 sr.reveal('.col-md-5',{origin:'right'})       
 	</script>
